@@ -1,8 +1,6 @@
 call plug#begin()
 
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'nvim-treesitter/nvim-treesitter'
-Plug 'nvim-treesitter/nvim-treesitter-context'
 
 call plug#end()
 
