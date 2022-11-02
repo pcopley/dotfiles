@@ -6,6 +6,10 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 # Need to wait to use this on hopnu
 # Plug 'neoclide/coc.nvim', {'branch':'release'}
 
+Plug '~/.fzf'
+#Plug 'gfanto/fzf-lsp.nvim'
+#Plug 'nvim-lua/plenary.nvim'
+
 call plug#end()
 
 set scrolloff=8
