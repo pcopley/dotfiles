@@ -2,6 +2,10 @@ call plug#begin()
 
 Plug 'dracula/vim', { 'as': 'dracula' }
 
+# This required node 14.14 or great
+# Need to wait to use this on hopnu
+# Plug 'neoclide/coc.nvim', {'branch':'release'}
+
 call plug#end()
 
 set scrolloff=8
