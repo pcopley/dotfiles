@@ -12,7 +12,7 @@ set relativenumber
 set tabstop=4 
 set softtabstop=4
 set shiftwidth=4
-set noexpandtab
+set expandtab
 
 syntax enable
 filetype plugin indent on
@@ -26,3 +26,4 @@ nnoremap <leader><CR> :so ~/.config/nvim/init.vim<CR>
 inoremap jk <esc>
 nnoremap <C-j> :cnext<CR>
 nnoremap <C-k> :cprev<CR>
+nnoremap <C-f> :FZF<CR>
