@@ -2,13 +2,7 @@ call plug#begin()
 
 Plug 'dracula/vim', { 'as': 'dracula' }
 
-# This required node 14.14 or great
-# Need to wait to use this on hopnu
-# Plug 'neoclide/coc.nvim', {'branch':'release'}
-
-Plug '~/.fzf'
-#Plug 'gfanto/fzf-lsp.nvim'
-#Plug 'nvim-lua/plenary.nvim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 call plug#end()
 
