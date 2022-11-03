@@ -27,3 +27,4 @@ inoremap jk <esc>
 nnoremap <C-j> :cnext<CR>
 nnoremap <C-k> :cprev<CR>
 nnoremap <C-f> :FZF<CR>
+nnoremap <C-g> :GFiles<CR>
