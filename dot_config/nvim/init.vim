@@ -14,6 +14,9 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
+autocmd BufNewFile,BufRead *.rvt set filetype=tcl
+autocmd BufWritePre *.tcl,*.rvt :%s/\s\+$//e
+
 syntax enable
 filetype plugin indent on
 
