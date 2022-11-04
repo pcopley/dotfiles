@@ -14,6 +14,9 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
+set rtp+=~/.fzf
+set rtp+=/usr/loca/opt/fzf
+
 autocmd BufNewFile,BufRead *.rvt set filetype=tcl
 autocmd BufWritePre *.tcl,*.rvt :%s/\s\+$//e
 
